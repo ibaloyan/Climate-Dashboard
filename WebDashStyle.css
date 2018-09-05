@@ -1,0 +1,247 @@
+/* External CCS styling for WebisualizationDashboard, in addition to Bootstrap */ 
+
+/* Default elements styles */
+html{
+  position: realtive;
+  min-height: 100%;
+} 
+
+body{
+  margin-bottom: 100px;
+  font-family: Arial, Helvetica, sans-serif;
+  background: #f1f1f1; 
+}
+/* Media query for body */
+@media only screen and (max-width: 767px) {
+  body {
+    background-color: #fff; /* white */
+  }
+} 
+h2 {
+  font-size: 40px;
+  color: #32d5e0;
+  font-family: Georgia, Times, "Times New Roman",serif;
+  font-weight: bold;
+  margin-left: 77px; 
+}
+
+h3 {
+  font-size: 16px;
+  /* color: #32d5e0; */
+  font-family: Georgia, Times, "Times New Roman",serif;
+  /* font-weight: bold;    */
+  margin-left: 50px;
+
+}
+
+h4 {
+  font-size: 16px;
+  /* color: #32d5e0; */
+  font-family: Georgia, Times, "Times New Roman",serif;
+  /* font-weight: bold;    */
+  margin-left: 77px;
+
+}
+
+.thubnail {
+    /* box model */
+    padding-top: 15px;
+    padding-bottom: 10px;
+}
+
+/* Media query for navigation */
+@media only screen and (max-width: 767px) {
+  .navbar-header {
+    background-color: #fff; /* white */
+  }
+} 
+
+  /* Navigation styles */ 
+
+  .navbar-custom {
+    background-color: #fff;
+  }
+
+  #landing-btn {
+    /* box model */
+    height: 50px;
+    padding-top: 15px;
+    padding-bottom: 10px;
+
+    /* Positioning */
+    margin-left: 90px;
+    font-family: Georgia, Times, "Times New Roman", serif;
+
+    /* Typography */
+    font-size: 24px;
+    font-weight: bold;
+    color: #fff; 
+    background: #32d5e0;
+  }
+
+/* Logo hover state */
+#landing-btn:hover {
+    /* Visual */
+    opacity: 0.7;
+}
+
+.navbar-right-custom {
+  /* box-model */
+  padding-top: 6px;
+  padding-right: 20px;
+  font-size: 10px;
+  font-weight: bold;
+  opacity:0.8;
+}
+
+/* Add a dark background color with a little bit see-through */ 
+/* .navbar {
+  margin-bottom: 0;
+  background-color: #2d2d30;
+  border: 0;
+  font-size: 20px !important;
+  letter-spacing: 4px;
+  opacity:0.8;
+} */
+
+/* Add a gray color to all navbar links */
+.navbar li a, .navbar .navbar-brand { 
+  color: slategray;
+  font-family: Georgia, Times, "Times New Roman", serif;
+}
+
+/* On hover, the links will turn white */
+.navbar-nav ul li a:hover {
+  /* color: #fff !important; */
+  color: #2d2d30 !important; 
+  display: block;
+}
+
+/* Dropdown */
+.open .dropdown-toggle {
+  /* color: #fff ; */
+  color: #2d2d30 !important; 
+  /* background-color: #555 !important;*/
+  opacity: 0.7 ;
+  filter:alpha(opacity=70);
+}
+
+/* For visualization pages - main frame style */
+
+.description-header {
+  margin-bottom: 30px;
+  font-family: Georgia, Times, "Times New Roman", serif;
+  font-size: 40px;
+  font-weight: bold;
+  color: #32d5e0;
+}
+
+.description-hr {
+  font-family: Georgia, Times, "Times New Roman", serif;
+  font-size: 16px;
+}
+
+/* Media query for description content */
+@media only screen and (max-width: 767px) {
+  .description-content{
+    padding: 0;
+    margin-top: 0;
+  }
+} 
+
+.description-content {
+  /* box model */
+  /* width: 560px;
+  height: 650px; */
+  padding: 10px; 
+  margin-top: 26px;
+  background-color: #fff;
+}
+
+.description-text {
+  padding-bottom: 20px
+}
+
+#description-image {
+  float: left;
+  width: 200px;
+  height: 200px;
+  margin-top: 20px;
+  margin-right: 20px;
+}
+
+/* for paragraph text */
+.description-content > p {
+  /* box model */
+  padding-top: 17px;
+  font-size: 17px;
+  color: slategray;
+  margin-top: 5px;
+  margin-right: 20px
+ }
+
+/* For comparison page - main frame style */
+
+.description2-header {
+  margin-bottom: 30px;
+  font-family: Georgia, Times, "Times New Roman", serif;
+  font-size: 40px;
+  font-weight: bold;
+  color: #32d5e0;
+}
+
+.description2-content {
+  padding: 10px; 
+  margin-top: 26px;
+  background-color: #fff;
+}
+
+.comparison-header {
+  margin-bottom: 15px;
+  font-family: Georgia, Times, "Times New Roman", serif;
+  font-size: 24px;
+  font-weight: bold;
+  margin-left: 177px;
+  color: #32d5e0;
+} */
+
+/* imageNav styles */
+
+#imageNav-area {
+  width: 100%;
+  padding: 30px 30px 30px;
+  margin-top: 32px;
+  background-color: #fff;
+}
+
+/* #images {
+  padding-top: 15px;
+  text-align: center;
+} */
+
+.imageNav-header {
+  margin-bottom: 15px;
+  font-family: Georgia, Times, "Times New Roman", serif;
+  font-size: 24px;
+  font-weight: bold;
+  color: #32d5e0;
+}
+
+.imageNav-content {
+  padding: 10px; 
+  margin-top: 26px;
+  background-color: #fff;
+}
+
+.imageNav-photo {
+  width: 140px;
+  height: 140px;
+}
+
+.imageNav-photo:hover {
+  opacity: 0.7;
+}
+
+.imageNav-photo.active {
+  border: 2px solid #32d5e0;
+}

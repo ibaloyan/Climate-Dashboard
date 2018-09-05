@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en-us">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA_Compatible" content="ie=edge">
+  <title>Web Visualization Dashboard</title>
+
+   <!-- Bring in our bootstrap stylesheet -->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" media="screen">
+  <!-- Bring in my own stylesheet -->
+  <link rel="stylesheet" href="WebDashStyle.css" media="screen">
+
+</head>
+
+<body>
+  <!-- Navbar -->
+  <nav class="navbar navbar-default">
+    <div class="container-fluid navbar-custom">
+
+      <!-- Brand and toggle get grouped for better mobile display -->
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" aria-expanded="false">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+          <div class="col-xs-9 phone-nav">
+            <a class="navbar-brand" href="index.html" id="landing-btn">Latitude</a>
+          </div>
+        </div>  <!-- navbar-header -->
+
+        <!-- Collect the navigation links, forms and other content for toggling -->
+        <div class="collapse navbar-collapse">
+          <ul class="nav navbar-nav navbar-right"navbar-right-custom> 
+            </li> 
+            <li><a href="Comparison.html">Comparison</a></li>
+            <li><a href="Data.html">Data</a></li>        
+            <li class="dropdown">
+            <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Plots <span class="caret"></span></a>
+            <ul class="dropdown-menu">
+              <li><a href="MaxTemperature.html">Max Temperature</a></li>
+              <li role="separator" class="divider"></li>
+              <li><a href="Humidity.html">Humidity</a></li>
+              <li role="separator" class="divider"></li>
+              <li><a href="Cloudiness.html">Cloudiness</a></li>
+              <li role="separator" class="divider"></li>
+              <li><a href="WindSpeed.html">Wind Speed</a></li>
+            </ul>
+            <li><a href="">    </a></li> 
+          </ul>
+        </div>    <!-- /.navbar-collapse -->
+    </div> <!-- /.container-fluid -->
+  </nav>
+
+  <div class="container">
+    <article class="row description2-content">
+      <!-- Common header -->
+        <div class="col-sm-12">
+            <h1 class="description2-header text-center">Comparison: Latitude vs. X</h1>
+            <hr class="description2-hr"/>
+            <h3 class="description2-text text-left">Click any plot to get in-depth analysis.</h3>
+        </div> <!-- col-sm-12 -->
+      <!-- Comparison images  -->     
+        <div class="col-md-6">
+            <h4 class="comparison-header text-center">vs. Max Temperature</h4>
+            <hr class="description2-hr"/>
+            <a href="MaxTemperature.html"><img src="Resources/assets/images/MaxTemperature.png" class="comparison-image img-responsive"></a>
+            <hr class="description2-hr"/>
+        </div> <!-- col-sm-6 -->
+        <div class="col-md-6">
+            <h4 class="comparison-header text-center">vs. Humidity</h4>
+            <hr class="description2-hr"/>
+            <a href="Humidity.html"><img src="Resources/assets/images/Humidity.png" class="comparison-image img-responsive"></a>
+            <hr class="description2-hr"/>
+        </div> <!-- col-sm-6 -->
+        <div class="col-sm-6">
+            <h4 class="comparison-header text-center">vs. Cloudiness</h4>
+            <hr class="description2-hr"/>
+            <a href="Cloudiness.html"><img src="Resources/assets/images/Cloudiness.png" class="comparison-image img-responsive"></a>
+            <hr class="description2-hr"/>
+        </div> <!-- col-sm-6 -->
+        <div class="col-sm-6">
+            <h4 class="comparison-header text-center">vs. Wind Speed</h4>
+            <hr class="description2-hr"/>
+            <a href="WindSpeed.html"><img src="Resources/assets/images/WindSpeed.png" class="comparison-image img-responsive"></a>
+            <hr class="description2-hr"/>
+        </div> <!-- col-sm-6 -->
+    </article> 
+  </div> <!-- End of the container -->
+
+  <!-- jQuery CDN -->
+  <script type="text/javascript" src="https://code.jquery.com/jquery-2.1.4.min.js"></script>
+
+  <!-- Bootstrap CDN -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
+</body>
+
+</html>
