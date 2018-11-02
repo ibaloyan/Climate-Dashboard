@@ -4,7 +4,7 @@ Climate Dashboard
 Climate Dashboard Website - Latitude Anaysis Dashboard
 I used slightly customzed images, produced by my other python project, ClimateAnalisys, https://github.com/ibaloyan/ClimateAnalysis.
 
-Website Title - Climate-Dashboard. 
+Website Title: Climate-Dashboard. 
 
 Technology => Bootstrap, CSS[WebDashStyle.css], HTML, Heroku PHP deployment.
 Web Site: https://climate-dashboard.herokuapp.com/
