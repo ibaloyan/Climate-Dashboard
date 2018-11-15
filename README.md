@@ -1,8 +1,8 @@
 # Climate-Dashboard
 Climate Dashboard
 
-Climate Dashboard Website - Latitude Anaysis Dashboard
-I used slightly customzed images, produced by my other python project, Weather-Analisys, https://github.com/ibaloyan/Weather-Analysis.
+Climate Dashboard Website - Latitude Analysis Dashboard
+I used slightly customized images, produced by my other python project, Weather-Analysis, https://github.com/ibaloyan/Weather-Analysis.
 
 Website Title: Climate-Dashboard
 
