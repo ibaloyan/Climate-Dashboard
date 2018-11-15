@@ -2,7 +2,7 @@
 Climate Dashboard
 
 Climate Dashboard Website - Latitude Analysis Dashboard
-I used slightly customized images, produced by my other python project, Weather-Analysis, https://github.com/ibaloyan/Weather-Analysis.
+I used slightly customized images, produced by my other Python Project, Weather-Analysis, https://github.com/ibaloyan/Weather-Analysis.
 
 Website Title: Climate-Dashboard
 
@@ -11,7 +11,7 @@ Web Site: https://climate-dashboard.herokuapp.com/
 
 The following html pages make the web visualization climate dashboard : 
 
-1. The Landing Page (index.html)-
+1. The Landing Page (index.html)
    * The navigation bar / header at the top has "Latitude" button at the left. This appears on on all html pages. When clicked from any page on the website, it redirects back to the home page.
 
    * To the right of the navigation bar are - dropdown with Comparison, Data, and Plots(4 Visualizations).
